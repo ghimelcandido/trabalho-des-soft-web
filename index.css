@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    align-items: center;
+    margin: 0px 280px 4em;
+}
+
+.imagemdoheader{
+    width: 280px; 
+    height: 200px; 
+    margin: 0px;
+    padding: 20px 0;
+}
+
+.nav{
+    position: absolute;
+    align-items: center;
+	top: 110px;
+	right: 0;
+    margin: 0px 0px 0em;
+}
+
+nav a{
+    display: flex;
+    margin: 0px 80px 0em;
+    text-transform: uppercase;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.todoconteudo{
+    font-weight: 500;
+    position: relative;
+    width: 1130px;
+    margin: 0 auto;
+    padding: 1em 0;
+    background: #1b40bb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tituloquemsomos{
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    font-size: 4.5ch;
+    margin: 45px 105px 1em;
+    clear: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textoquemsomos{
+    color: whitesmoke;
+}
+
+.titulodadoscadastrais{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 4ch;
+    margin: 45 0 1em;
+    clear: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.textodadoscadastrais{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight:500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.rodape_final{
+    margin: 50px 0px 0em;
+	color: white;
+    border: 5px solid #fff;
+	display: flex;
+	justify-content: space-around;
+    text-align: center;
+}
+.art_rod{
+	width: 33.33%
+	margin 10px;
+}
